@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Report Translator</title>
+    <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-icon">
+    <link
+      rel="stylesheet"
+      href="style.css" />
+    <script
+      type="module"
+      src="main.js"
+      defer></script>
+  </head>
+  <body>
+    <header>
+      <section class="hero-text">
+        <h1>Estatus a Español</h1>
+        <small>Traduce las palabras clave de Ingles a Español sin afectar estilos</small>
+      </section>
+      <section class="btn-group">
+        <button id="btn-clean" class="btn">Limpiar</button>
+        <button id="btn-translate" class="btn btn-cta">Traducir</button>
+      </section>
+    </header>
+    <main>
+      <section class="card text-origin">
+        <header>
+          <h3>Texto:</h3>
+          <button id="btn-copy" aria-label="Copy text to clipboard" class="btn btn-icon">
+            <img src="./assets/copy.svg" alt="Copy icon">
+          </button>
+        </header>
+        <div id="text-origin" class="text-box" contenteditable="true" spellcheck="true"></div>
+      </section>
+    </main>
+    
+    <!-- <footer>Footer</footer> -->
+  </body>
+</html>
